@@ -6,17 +6,12 @@
 .introducao {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0px 40px;
-    box-sizing: border-box;
-    max-width: 1200px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    gap: 0px 40px;   
 }
 
 .introducao-conteudo {
     align-self: end;
+    padding-top: 50px;
     padding-bottom: 200px;
 }
 
@@ -50,9 +45,11 @@
     .introducao {
         grid-template-columns: 1fr;
         gap: 32px;
+        padding-top: 20px;
     }
 
     .introducao-conteudo {
+        padding-top: 0px;
         padding-bottom: 0px;
     }
 
