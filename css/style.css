@@ -2,6 +2,10 @@
 @import "./global/global.css";
 @import "./global/menu-mobile.css";
 
+/*icones*/
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css);
+@import url(path/to/font-awesome/css/font-awesome.min.css);
+
 /*fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
 
@@ -13,3 +17,4 @@
 /*pagina home*/
 @import "./home/introducao.css";
 @import "./projetos/projetos-lista.css";
+@import "./home/experiencia.css";
