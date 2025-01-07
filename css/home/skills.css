@@ -39,6 +39,10 @@
         padding-bottom: 60px;
     }
 
+    .skill li {
+        padding: 20px;
+    }
+
     .skill h2 {
         margin-bottom: 20px;
     }
